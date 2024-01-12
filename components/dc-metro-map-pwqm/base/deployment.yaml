@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-pwqm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/mbasti-test-org/happy-depl-cyrc-tenant/appstudio/dc-metro-map-pwqm@sha256:a69923fd0f2307427e90f40ba43d9c7697e44668a87d88bed3d32621a927d088
         name: my-nodejs
         ports:
         - containerPort: 3001
